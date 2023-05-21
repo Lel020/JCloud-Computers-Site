@@ -53,6 +53,7 @@ body{
     font-weight: bold;
 }
 
+/* Reduced space between 'login' & 'register' */
 .login-container a {
     padding: 12px 8px;
 }
