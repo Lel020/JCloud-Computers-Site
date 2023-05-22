@@ -5,6 +5,7 @@ body{
 
 /* Add a black background color to the top navigation */
 .topnav {
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +24,7 @@ body{
     margin-left: 3px;
     width: 45px;
     height: 45px;
+    border-radius: 4px;
 }
 
 /* Style for center links */
@@ -34,15 +36,12 @@ body{
 
 /* Borders for links-container */
 #home{
-    border-right: solid black;
-}
-#about{
-    border-right: solid black;
-}
-#services{
-    border-right: solid black;
+    border-left: solid black;
 }
 
+#contact{
+    border-right: solid black;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
     color: black;
