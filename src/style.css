@@ -76,6 +76,16 @@ body{
 /* h1 on top of paragraph */
 .companyIntro{
     flex-direction: column;
+    border: 2px solid white;
+    padding: 15px;
+    box-shadow: 5px 5px 150px #f9f4fe;
+    border-radius: 10px;
+    transition: all 1s ease-out;
+}
+
+.companyIntro:hover{
+    transform: scale(1.25);
+    box-shadow: 10px 10px 200px #f9f4fe;
 }
 
 h1{
