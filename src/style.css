@@ -142,3 +142,10 @@ p{
     justify-content: center;
     margin-top: 10%;
 }
+
+.tiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0.5;
+}
