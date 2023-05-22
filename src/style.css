@@ -76,6 +76,9 @@ body{
 
 /* h1 on top of paragraph */
 .companyIntro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     border: 2px solid white;
     padding: 15px;
@@ -106,7 +109,22 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* For 'Book a Consultation' button */
+#book{
+    text-align: center;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border: solid black;
+    color: black;
+    border-radius: 5px;
+}
 
+#book:hover{
+    background-color: black;
+    color: white;
+}
 /* Image of the PC on the homepage */
 #pc-build{
     margin-left: 10%;
