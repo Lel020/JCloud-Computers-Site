@@ -136,6 +136,7 @@ p{
     box-shadow: 0px 0px 75px #affcff;
 }
 
+/* Main layout for the 3 tiles */
 .tiles-container{
     display: flex;
     align-items: center;
@@ -143,6 +144,7 @@ p{
     margin-top: 10%;
 }
 
+/* Makes the tiles evenly spread out on the x-axis */
 .tiles{
     display: flex;
     flex-direction: row;
