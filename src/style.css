@@ -208,6 +208,7 @@ p{
     to {box-shadow: 0px 0px 25px rgb(247, 201, 116);}
 }
 
+/*Centered the description within the tiles */
 .tiles p{
     color: black;
     text-align: center;
