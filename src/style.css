@@ -141,7 +141,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 13%;
 }
 
 /* Makes the tiles evenly spread out on the x-axis */
@@ -150,4 +150,38 @@ p{
     flex-direction: row;
     justify-content: space-between;
     flex-grow: 0.5;
+}
+
+/* Decoration for all 3 tiles */
+#test1{
+    width: 450px;
+    height: 400px;
+    border: solid wheat;
+    animation-name: shadowChange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#test2{
+    width: 450px;
+    height: 400px;
+    border: solid wheat;
+    animation-name: shadowChange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#test3{
+    width: 450px;
+    height: 400px;
+    border: solid wheat;
+    animation-name: shadowChange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shadowChange {
+    from {box-shadow: 0px 0px 25px white;}
+    to {box-shadow: 0px 0px 25px rgb(247, 201, 116);}
 }
