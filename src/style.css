@@ -91,7 +91,7 @@ body{
 /* Transition effect */
 .companyIntro:hover{
     transform: scale(1.25);
-    box-shadow: 0px 0px 200px #f4f4f4;
+    box-shadow: 0px 0px 500px rgb(201, 201, 201);
 }
 
 h1{
