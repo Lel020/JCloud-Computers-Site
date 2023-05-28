@@ -1,19 +1,36 @@
 window.onload = () => {
 
-    //For the links-container (home, about, services, contact)
+    /**
+     * For HOME, ABOUT, SERVICES & CONTACT buttons
+     */
     const homeButton = document.getElementById('home');
+    const aboutButton = document.getElementById('about');
     const servicesButton = document.getElementById('services');
 
     homeButton.addEventListener('click', () => {
-    document.getElementById('header-main').scrollIntoView(
-        { behavior: 'smooth'});
+        document.documentElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+        });
+    });
+
+    aboutButton.addEventListener('click', () => {
+        document.getElementById('topnav-main').scrollIntoView(false);
     });
 
     servicesButton.addEventListener('click', () => {
-        document.getElementById('tiles-container-main').scrollIntoView(true);
+        document.getElementById('tiles-container-main').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+        });
     });
 
-    //For the login and register buttons under "login-container"
+
+    /**
+     * For Login & Register buttons
+     */
     const loginButton = document.getElementById('login');
     const registerButton = document.getElementById('register');
 
