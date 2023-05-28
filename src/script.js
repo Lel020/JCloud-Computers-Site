@@ -5,10 +5,13 @@ window.onload = () => {
     const servicesButton = document.getElementById('services');
 
     homeButton.addEventListener('click', () => {
-    document.getElementById('header-main').scrollIntoView({ behavior: 'smooth'});
+    document.getElementById('header-main').scrollIntoView(
+        { behavior: 'smooth'});
     });
 
-
+    servicesButton.addEventListener('click', () => {
+        document.getElementById('tiles-container-main').scrollIntoView(true);
+    });
 
     //For the login and register buttons under "login-container"
     const loginButton = document.getElementById('login');
