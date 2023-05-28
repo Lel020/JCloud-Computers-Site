@@ -145,6 +145,7 @@ p{
     justify-content: center;
     margin-top: 13%;
     padding-bottom: 20%;
+    scroll-behavior: smooth;
 }
 
 /* Makes the tiles evenly spread out on the x-axis */
