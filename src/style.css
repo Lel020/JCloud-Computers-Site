@@ -145,8 +145,6 @@ p{
     justify-content: center;
     margin-top: 13%;
     padding: 50px;
-    padding-bottom: 20%;
-    scroll-behavior: smooth;
 }
 
 /* Makes the tiles evenly spread out on the x-axis */
@@ -192,4 +190,26 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
+}
+
+.client-testimonials-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 25px;
+    padding-bottom: 20%;
+}
+
+.client-testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client{
+    font-size: 75px;
+    font-family: "Poppins", Sans-serif;
+    margin-right: auto;
+    margin-left: auto;
 }
