@@ -4,20 +4,11 @@ window.onload = () => {
      * For HOME, ABOUT, SERVICES & CONTACT buttons
      */
     const homeButton = document.getElementById('home');
-    const aboutButton = document.getElementById('about');
     const servicesButton = document.getElementById('services');
 
     homeButton.addEventListener('click', () => {
         document.documentElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-            inline: 'nearest'
-        });
-    });
-
-    aboutButton.addEventListener('click', () => {
-        document.documentElement.scrollIntoView({
-            behavior: 'smooth',
+            behavior: 'instant',
             block: 'start',
             inline: 'nearest'
         });
@@ -25,7 +16,7 @@ window.onload = () => {
 
     servicesButton.addEventListener('click', () => {
         document.getElementById('tiles-container-main').scrollIntoView({
-            behavior: 'instant',
+            behavior: 'smooth',
             block: 'start',
             inline: 'nearest'
         });
