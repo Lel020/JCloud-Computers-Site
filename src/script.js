@@ -1,10 +1,11 @@
 window.onload = () => {
 
     /**
-     * For HOME, ABOUT, SERVICES & CONTACT buttons
+     * For HOME, SERVICES, TESTIMONIALS & CONTACT buttons
      */
     const homeButton = document.getElementById('home');
     const servicesButton = document.getElementById('services');
+    const testimonialsButton = document.getElementById('testimonials');
 
     homeButton.addEventListener('click', () => {
         document.documentElement.scrollIntoView({
@@ -20,6 +21,14 @@ window.onload = () => {
             block: 'start',
             inline: 'nearest'
         });
+    });
+
+    testimonialsButton.addEventListener('click', () => {
+        document.getElementById('client-testimonials-main').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+        })
     });
 
 
