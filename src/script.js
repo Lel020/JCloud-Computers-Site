@@ -16,12 +16,16 @@ window.onload = () => {
     });
 
     aboutButton.addEventListener('click', () => {
-        document.getElementById('topnav-main').scrollIntoView(false);
+        document.documentElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+        });
     });
 
     servicesButton.addEventListener('click', () => {
         document.getElementById('tiles-container-main').scrollIntoView({
-            behavior: 'smooth',
+            behavior: 'instant',
             block: 'start',
             inline: 'nearest'
         });
