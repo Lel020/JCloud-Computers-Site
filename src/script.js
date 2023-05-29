@@ -10,7 +10,7 @@ window.onload = () => {
 
     homeButton.addEventListener('click', () => {
         document.documentElement.scrollIntoView({
-            behavior: 'instant',
+            behavior: 'smooth',
             block: 'start',
             inline: 'nearest'
         });
@@ -20,7 +20,7 @@ window.onload = () => {
         document.getElementById('tiles-container-main').scrollIntoView({
             behavior: 'smooth',
             block: 'start',
-            inline: 'nearest'
+            inline: 'center'
         });
     });
 
@@ -28,7 +28,7 @@ window.onload = () => {
         document.getElementById('client-testimonials-main').scrollIntoView({
             behavior: 'smooth',
             block: 'start',
-            inline: 'nearest'
+            inline: 'center'
         })
     });
 
