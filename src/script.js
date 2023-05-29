@@ -6,6 +6,7 @@ window.onload = () => {
     const homeButton = document.getElementById('home');
     const servicesButton = document.getElementById('services');
     const testimonialsButton = document.getElementById('testimonials');
+    const contactButton = document.getElementById('contact');
 
     homeButton.addEventListener('click', () => {
         document.documentElement.scrollIntoView({
